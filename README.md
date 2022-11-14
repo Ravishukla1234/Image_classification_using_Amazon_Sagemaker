@@ -12,7 +12,7 @@ Pytorch is used for modeling purpose.
 4. Refer to `src/train.py` script used for training the model
 5. Run notebook `notebooks/03-Create-Lambda` to create AWS Lambda required to host the Sagemaker Endpoint via API Gateway
 6. Follow this detailed <a href = "https://aws.amazon.com/blogs/machine-learning/call-an-amazon-sagemaker-model-endpoint-using-amazon-api-gateway-and-aws-lambda/">AWS tutorial </a> to invoke lambda function via Amazon API gateway
-7. Download `flask-app` folder in your local and run `flask-app/app.py` to create a flask API.
+7. Download `flask-api` folder in your local and run `flask-api/app.py` to create a flask API.
 8. (Optional) You can follow this <a href = "https://medium.com/techfront/step-by-step-visual-guide-on-deploying-a-flask-application-on-aws-ec2-8e3e8b82c4f7">medium article</a> to run your Flask API on AWS EC2 instance.
 
 
