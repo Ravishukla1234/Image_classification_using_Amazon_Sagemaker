@@ -41,7 +41,7 @@ def upload_predict():
             image_file.save(image_location)
             output = predict(image_location,url )
             return 	render_template("index.html",prediction = output, image_loc = image_file.filename)
-    return render_template("index.html",prediction = "catt", image_loc = None)
+    return render_template("index.html")
 
 if __name__ =="__main__":
     app.run(port = 12000, debug = True)
